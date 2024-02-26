@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'mukta',sans-serif;
+}
+
+.logo-boca {
+
+    height: 200px;
+
+}
+
+button {
+    color: white;
+    background-color: rosybrown;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.maquiagem-new {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+
+}
+
+.caixa-principal {
+    width: 40%;
+
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
+
+video {
+  width: 100vw;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+
+  
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,195,0.3477766106442577) 6%, rgba(252,176,69,1) 100%);
+    position: fixed;
+    top: 0;
+}
+p {
+    color: black;
+    font-size: 20px;
+    
+}
+
+.link-whatsapp img {
+    height: 100px;
+    position: fixed;
+    width: 50px;
+    bottom: 20px;
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 60px;
+}
+
+.header a {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.header a:hover {
+    color: royalblue;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.formulário-fale-conosco {
+
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -300px;
+    top: 30%;
+     padding: 20px;
+    border-radius: 5px;
+
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80f;
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+
+}
+
+.mascara-formulario {
+    position:fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+    /*background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,195,0.10968137254901966) 6%, rgba(252,176,69,1) 100%);/*
